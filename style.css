@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(6, 44, 54);
+    color: aliceblue;
+    height: 100vh;
+   
+}
+.container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.parent{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.toastAlert{
+    background-color: aqua;
+    padding: 10px;
+    position: relative;
+    transition: bottom 0.4s ease-in-out;
+}
